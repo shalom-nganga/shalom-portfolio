@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 0.5rem; /* Changed border radius for a different look */
+    box-shadow: 0 0 0.5rem var(--main-color); /* Reduced box shadow for subtlety */
+    font-size: 1.4rem; /* Decreased font size for a more compact button */
+    color: var(--bg-color);
+    letter-spacing: 0.05rem; /* Slightly reduced letter spacing */
+    font-weight: 500; /* Slightly reduced font weight */
+    transition: 0.3s ease; /* Faster transition for quicker feedback */
+}
+
+
+.btn:hover {
+    box-shadow: none;
+}
